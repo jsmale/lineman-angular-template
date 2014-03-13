@@ -1,0 +1,12 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.2.14",
+	"bootstrap": "*",
+	"angular-bootstrap": "*",
+    "angular-route": "*",
+    "angular-resource": "*",
+    "lodash": "*"
+  }
+}
