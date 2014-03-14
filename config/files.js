@@ -14,7 +14,7 @@ module.exports = function(lineman) {
 		"vendor/bower/jquery/dist/jquery.js",
 		"vendor/bower/bootstrap/dist/js/bootstrap.js",
 		"vendor/bower/angular-bootstrap/ui-bootstrap.js",
-        "vendor/bower/angular-route/angular-route.js",
+        "vendor/bower/angular-ui-router/release/angular-ui-router.js",
         "vendor/bower/angular-resource/angular-resource.js",
         "vendor/bower/lodash/dist/lodash.js",
         "vendor/js/**/*.js"

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html ng-app="app">
+<html ng-app="app" ng-controller="AppCtrl">
   <head>
-    <title><%= pkg.name %></title>
+    <title ng-bind="pageTitle"></title>
     <link rel="stylesheet" type="text/css" href="/css/app.css" media="all" />
   </head>
   <body>
     <div class="row">
       <div class="large-12">
         <h1>A Lineman Angular Setup</h1>
-        <div id="view" ng-view></div>
+    <div class="container" ui-view="main"></div>
       </div>
     </div>
 

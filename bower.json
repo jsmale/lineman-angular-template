@@ -5,7 +5,7 @@
     "angular": "1.2.14",
 	"bootstrap": "*",
 	"angular-bootstrap": "*",
-    "angular-route": "*",
+    "angular-ui-router": "*",
     "angular-resource": "*",
     "lodash": "*"
   }

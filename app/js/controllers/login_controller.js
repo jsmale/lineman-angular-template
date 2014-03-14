@@ -1,4 +1,17 @@
-angular.module("app").controller('LoginController', function($scope, $location, AuthenticationService) {
+angular.module("app")
+.config(function config( $stateProvider ) {
+    $stateProvider.state( 'login', {
+        url: '/login',
+        views: {
+            "main": {
+                controller: 'LoginController',
+                templateUrl: 'login.html'
+            }
+        },
+        data:{ pageTitle: 'Login' }
+    });
+})
+.controller('LoginController', function($scope, $location, AuthenticationService) {
   $scope.credentials = { username: "", password: "" };
 
   var onLoginSuccess = function() {
